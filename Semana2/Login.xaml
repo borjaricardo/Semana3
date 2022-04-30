@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana2.Login">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image Grid.Row="0" Source="https://www.uisrael.edu.ec/wp-content/uploads/2020/05/logo-UISRAEL.png" WidthRequest="100" HeightRequest="100" Margin="0,50,0,30" />
+
+            <StackLayout Grid.Row="1" Padding="30,20">
+                <Entry x:Name="txtusuario" Placeholder="Usuario" PlaceholderColor="Gray"/>
+                <Entry x:Name="txtcontrasena" Placeholder="Contraseña" PlaceholderColor="Gray" IsPassword="True"/>
+                <Button x:Name="btnIniciar" Text="Iniciar Sesión"  Background="White" Clicked="btnIniciar_Clicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
